@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_icon"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/thirdColor"
+        android:textSize="30dp"
+        android:text="Online Quiz App"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="13dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/thirdColor"
+        android:text="Play and Fun"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Start Quiz"
+        android:textColor="@color/primary"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:background="@drawable/round_back_secondary_100"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quitButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Quit from Application"
+        android:textColor="@color/primary"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:background="@drawable/round_back_secondary_100"
+        />
+
+
+</LinearLayout>

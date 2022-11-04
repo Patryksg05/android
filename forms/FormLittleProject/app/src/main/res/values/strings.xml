@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FormLittleProject</string>
+
+    <!--pytanie1-->
+    <string name="question1">Jakie to logo?</string>
+    <string name="description1">Android Studio jest całkiem nowym IDE (Zintegrowanym Środowiskiem Projektowym) udostępnionym bezpłatnie przez Google dla deweloperów systemu Android. Android Studio bazuje na IDE IntelliJ IDEA, które również oferuje dobre środowisko projektowe systemu Android.</string>
+    <string name="question1answerA">Android Studio Code</string>
+    <string name="question1answerB">Visual Studio Code</string>
+    <string name="question1answerC">Pycharm Community Edition</string>
+    <string name="question1answerD">Sublime Text</string>
+
+    <!--pytanie2-->
+    <string name="question2">Tresc: obrazek</string>
+    <string name="description2">Akapity tworzymy posługując się znacznikiem (ang. paragraph – akapit, paragraf). Paragrafy, czy inaczej akapity można porównać do akapitów w edytorach tekstowych (np. Word).</string>
+    <string name="question2answerB">Powstanie lista rozwijalna</string>
+    <string name="question2answerA">Powstanie akapit</string>
+    <string name="question2answerC">Powstanie wysrodkowany element</string>
+    <string name="question2answerD">Nic sie nie stanie</string>
+
+</resources>
