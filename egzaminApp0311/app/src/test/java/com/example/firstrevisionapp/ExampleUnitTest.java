@@ -1,4 +1,4 @@
-package com.example.egzamin;
+package com.example.firstrevisionapp;
 
 import org.junit.Test;
 

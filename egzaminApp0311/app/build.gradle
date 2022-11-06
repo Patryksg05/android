@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.egzamin'
+    namespace 'com.example.firstrevisionapp'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.egzamin"
+        applicationId "com.example.firstrevisionapp"
         minSdk 27
         targetSdk 32
         versionCode 1
