@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="pytanie">Choose from the colors, which are not in the Polish Flag</string>
+    <string name="zla_odp">That button have to stay</string>
+    <string name="pop_odp">Delete this button</string>
+    <string name="end">CONGRATULATIONS! This is Polish Flag</string>
+</resources>

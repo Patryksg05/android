@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="pytanie">Wybierz kolory, z której sklada nie sie flaga Polski</string>
+    <string name="zla_odp">Ten przycisk musi pozostac</string>
+    <string name="pop_odp">Przycisk usuwany</string>
+    <string name="end">GRATULACJE, to jest flaga POLSKI</string>
+</resources>
