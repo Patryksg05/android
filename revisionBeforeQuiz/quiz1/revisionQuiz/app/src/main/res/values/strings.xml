@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">appRevisinoApp</string>
+
+    <string name="question1">Co przedstawia obrazek?</string>
+    <string name="question1_answerA">Pingwiny z madagaskaru</string>
+    <string name="question1_answerB">Epoka Lodowcowa</string>
+    <string name="question1_answerC">Harry Potter</string>
+    <string name="question1_answerD">Milionerzy</string>
+    <string name="question1_tip">Tip dla pingwiny</string>
+
+    <string name="question2">Co przedstawia fotografia?</string>
+    <string name="question2_answerA">Travis Scott</string>
+    <string name="question2_answerB">Wiedzmina</string>
+    <string name="question2_answerC">Jacka Muranskiego</string>
+    <string name="question2_answerD">Kung fu panda</string>
+    <string name="question2_tip">Tip dla kung</string>
+
+</resources>
