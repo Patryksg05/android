@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HintActivity"
+    android:background="@color/primary">
+
+    <RelativeLayout
+        android:id="@+id/menuBarHint"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybrano podpowiedz\n do pytania: "
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="@color/thirdColor"
+            android:textSize="24dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"
+            />
+
+        <TextView
+            android:id="@+id/questionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/thirdColor"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/questionNumber"
+            android:layout_marginTop="15dp"
+            android:background="#D0DAE1E3"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttonCheck"
+        android:layout_below="@id/menuBarHint"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/forSure"
+            android:layout_width="wrap_content"
+            android:textStyle="italic"
+            android:layout_height="55dp"
+            android:paddingStart="35dp"
+            android:paddingEnd="35dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"
+            android:text="Podpowiedz spowoduje minusowe punkty\nCzy na pewno?"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/primary"
+            android:background="@drawable/round_back_secondary_100"
+            />
+        
+    </RelativeLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@id/buttonCheck"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <TextView
+            android:id="@+id/hintForQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description1"
+            android:textColor="@color/thirdColor"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:visibility="invisible"/>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_below="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="Wroc do pytania"
+            android:layout_marginEnd="110dp"
+            android:layout_marginStart="110dp"
+            android:backgroundTint="@color/secondary"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:id="@+id/rejectHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="Odrzucam podpowiedz"
+            android:layout_marginEnd="110dp"
+            android:layout_marginStart="110dp"
+            android:backgroundTint="@color/secondary"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:visibility="visible"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
